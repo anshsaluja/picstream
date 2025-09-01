@@ -13,3 +13,5 @@ def store_image_metadata(image_folder):
 
 if __name__ == "__main__":
     store_image_metadata(r'C:\Users\Legion\OneDrive\Desktop\python_work\converted')
+
+# path

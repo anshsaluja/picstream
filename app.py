@@ -1,10 +1,10 @@
+# working
 from flask import Flask, request, render_template, send_from_directory, redirect, url_for
 import os
 import face_recognition
 import json
 from PIL import Image
 import concurrent.futures
-
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'C:/Users/Legion/OneDrive/Desktop/python_work/converted'
 app.config['KNOWN_FACES_FOLDER'] = 'C:/Users/Legion/OneDrive/Desktop/python_work/known_faces'
