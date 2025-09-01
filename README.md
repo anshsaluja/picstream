@@ -30,7 +30,6 @@ PicStream is a face recognition photo manager that helps users organize, tag, an
 ├── app.py               # Flask entry point  
 ├── face.py              # Face recognition & clustering logic  
 ├── image_metadata.py    # Metadata extraction & captioning  
-├── face_recognition.db  # SQLite database  
 ├── templates/           # HTML templates (index, search, add_people)  
 ├── static/              # CSS, JS, and assets  
 └── README.md            # Project overview  
@@ -50,7 +49,7 @@ cd picstream
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt  # Flask, OpenCV, face_recognition, numpy
 ```
 
 ### 3. Run the app
@@ -59,6 +58,11 @@ python app.py
 ```
 
 App will be available at `http://127.0.0.1:5000/`
+
+---
+
+## 📸 Demo & Screenshots
+Coming soon — GIFs and screenshots of the app in action will be added here.
 
 ---
 
@@ -73,8 +77,8 @@ Currently minimal setup — SQLite DB is used locally. Future versions will incl
 
 ---
 
-## 📄 License & Attribution
-MIT License  
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
